@@ -436,7 +436,7 @@ fn route_full(
             mode: "single".into(),
             agents: Vec::new(),
             reason: format!(
-                "HARD-BLOCK: rizik={:.2} >= {:.2} (domen={}). Zadr'zano na ljudsku verifikaciju prije izvršenja.",
+                "HARD-BLOCK: rizik={:.2} >= {:.2} (domen={}). Zadržano na ljudsku verifikaciju prije izvršenja.",
                 risk_val, RISK_HARD_BLOCK, cls.domain
             ),
             domain: cls.domain,

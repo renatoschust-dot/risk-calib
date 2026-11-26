@@ -18,7 +18,7 @@ class TestRiskV2(unittest.TestCase):
         cls.router = Router(risk_model="v2")
 
     def test_fixture_exact(self):
-        fields = ["mode", "agents", "domain", "confidence", "risk", "blocked"]
+        fields = ["mode", "agents", "domain", "confidence", "risk", "blocked", "reason"]
         mismatches = []
         for i, (task, exp) in enumerate(zip(self.inputs, self.expected)):
             got = self.router.route(task)

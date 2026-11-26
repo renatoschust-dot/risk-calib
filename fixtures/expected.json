@@ -202,7 +202,7 @@
   {
     "mode": "single",
     "agents": [],
-    "reason": "HARD-BLOCK: rizik=0.85 >= 0.85 (domen=it). Zadr'zano na ljudsku verifikaciju prije izvršenja.",
+    "reason": "HARD-BLOCK: rizik=0.85 >= 0.85 (domen=it). Zadržano na ljudsku verifikaciju prije izvršenja.",
     "domain": "it",
     "confidence": 1.0,
     "risk": 0.85,
@@ -211,7 +211,7 @@
   {
     "mode": "single",
     "agents": [],
-    "reason": "HARD-BLOCK: rizik=0.90 >= 0.85 (domen=prodaja). Zadr'zano na ljudsku verifikaciju prije izvršenja.",
+    "reason": "HARD-BLOCK: rizik=0.90 >= 0.85 (domen=prodaja). Zadržano na ljudsku verifikaciju prije izvršenja.",
     "domain": "prodaja",
     "confidence": 1.0,
     "risk": 0.9,
@@ -220,7 +220,7 @@
   {
     "mode": "single",
     "agents": [],
-    "reason": "HARD-BLOCK: rizik=1.00 >= 0.85 (domen=kadrovi). Zadr'zano na ljudsku verifikaciju prije izvršenja.",
+    "reason": "HARD-BLOCK: rizik=1.00 >= 0.85 (domen=kadrovi). Zadržano na ljudsku verifikaciju prije izvršenja.",
     "domain": "kadrovi",
     "confidence": 0.4471,
     "risk": 1.0,

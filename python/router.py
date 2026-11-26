@@ -413,7 +413,7 @@ class Router:
                 "agents": [],
                 "reason": (
                     f"HARD-BLOCK: rizik={risk_val:.2f} >= {self.risk_hard_block:.2f} "
-                    f"(domen={cls.domain}). Zadr\'zano na ljudsku verifikaciju prije izvršenja."
+                    f"(domen={cls.domain}). Zadržano na ljudsku verifikaciju prije izvršenja."
                 ),
                 "domain": cls.domain,
                 "confidence": round(cls.confidence, 4),

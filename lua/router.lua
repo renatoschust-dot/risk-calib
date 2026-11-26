@@ -376,7 +376,7 @@ local function route(task)
   -- HARD-BLOCK
   if risk >= RISK_HARD_BLOCK then
     return {mode="single", agents={}, reason=string.format(
-      "HARD-BLOCK: rizik=%.2f >= %.2f (domen=%s). Zadr'zano na ljudsku verifikaciju prije izvr\u{0161}enja.",
+      "HARD-BLOCK: rizik=%.2f >= %.2f (domen=%s). Zadržano na ljudsku verifikaciju prije izvr\u{0161}enja.",
       risk, RISK_HARD_BLOCK, cls.domain), domain=cls.domain,
       confidence=round4(cls.confidence), risk=round4(risk), ["blocked"]=true}
   end
